@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Manrope:wght@200&family=Quicksand:wght@300&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Manrope', sans-serif;
+}
+nav ul li{
+    padding: 0 10px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: white;
+}
+.music-logo img{
+    width: 50px;
+    padding-left: 20px;
+
+}
+
+.container{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    min-height: 70vh;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    margin: 20px 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    display: flex;
+
+}
+.bottom{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    opacity: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+}
+
+#progressBar{
+    width: 80vw;
+}
+
+.icons img{
+    margin-top: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.song-item{
+    padding-left: 30px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.song-item img{
+    width: 30px;
+    padding: 5px 5px;
+}
